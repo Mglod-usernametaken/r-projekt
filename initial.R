@@ -1,6 +1,6 @@
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager") 
-BiocManager::install(version = "3.12")
+BiocManager::install(version = "3.19")
 
 BiocManager::install("ComplexHeatmap", force = T)
 
